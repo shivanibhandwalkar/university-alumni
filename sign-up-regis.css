@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d3e50;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #2d3e50;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 70px 0;
+    color: #58A4B0;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.contact {
+    background-color: #2d3e50;
+    display: block;
+    width: 105px;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-color: aqua;
+    margin-left: 250px;
+}
+.login-btn{
+   
+    width: 50px;
+    background-color:  #58A4B0;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-left: 450px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Progress Bar Container */
+.progress-container {
+    width: 22%;
+    margin-bottom: 80px;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Each Step in the progress */
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.step.completed .step-circle {
+    background-color: #58A4B0; /* Completed step color */
+    color: white;
+    margin-right: 45px;
+}
+
+.step .step-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc; /* Default color for non-completed steps */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.step-label {
+    margin-top: 10px;
+    color: white;
+}
+
+.step::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 180px;
+    height: 4px;
+    background-color: #ccc;
+    z-index: -1;
+}
+
+.step.completed::before {
+    background-color: #58A4B0; /* Line color for completed steps */
+}
+
+/* Hide the last line in the progress bar */
+.step:last-child::before {
+    display: none;
+}
+

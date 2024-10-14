@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>University Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="message.html">
+  <link rel="stylesheet" href="script.js">
+ 
+ 
+</head>
+<body>
+  <div class="sidebar">
+    <div class="label">
+        <img src="image 4.svg">
+        <h2>University</h2>
+      </div>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Networking</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Jobs</a></li>
+      <li><a href="#">Donations</a></li>
+      <li><a href="#">Article/Blog</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <input type="text" placeholder="Search anything...">
+     
+
+      <a href="profile.html" class="profile-page">
+        <img src="Group19.png"  class="user-profile">
+    </a>
+
+    </header>
+
+    <div class="announcements">
+      <h3>Announcements</h3>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Dept</th>
+          <th>Title</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td>29/09/24</td><td>IT</td><td>Upcoming Alumni Reunion</td>
+          <td><i class="eye-icon">👁</i>
+            <a href="#">Open</a></td>
+        </tr>
+        <tr>
+          <td>29/09/24</td><td>IT</td><td>Upcoming Alumni Reunion</td>
+          <td><i class="eye-icon">👁</i> <a href="#">Open</a></td>
+        </tr>
+        <tr>
+            <td>29/09/24</td><td>IT</td><td>Upcoming Alumni Reunion</td>
+            <td><i class="eye-icon">👁</i> <a href="#">Open</a></td>
+        </tr>
+        <tr>
+            <td>29/09/24</td><td>IT</td><td>Upcoming Alumni Reunion</td>
+            <td><i class="eye-icon">👁</i> <a href="#">Open</a></td>
+        </tr>
+        <div class="container">
+          <div class="calendar1">
+            <div class="header">
+              <button id="prev" class="nav-button">&#9664;</button>
+              <h1 id="month-year"></h1>
+              <button id="next" class="nav-button">&#9654;</button>
+            </div>
+            <div class="weekdays">
+              <div>Sun</div>
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+            </div>
+            <div class="days" id="days"></div>
+            <script src="script.js"></script>
+          </div>
+          
+        <div class="calendar">
+          <ul>
+            <li>Vasant Panchami - 10 Feb</li>
+            <li>Vasant Panchami - 11 Feb</li>
+            <li>Ratha Saptami - 14 Feb</li>
+            <li>Ratha Saptami-16 feb</li>
+            
+          </ul>
+          <ul>
+            <li>Vasant Panchami - 10 Feb</li>
+            <li>Vasant Panchami - 11 Feb</li>
+            <li>Ratha Saptami - 14 Feb</li>
+            <li>Ratha Saptami-16 feb</li>
+            
+          </ul>
+       
+        </div>
+      </div>
+        
+      </table>
+      
+
+   
+
+    <div class="mentors">
+      <h3>Top Mentors</h3>
+      <div class="mentor-list">
+        <div class="mentor">
+          <img src="Ellipse 3.png" alt="Mentor">
+          <p>Ananya Sharma</p>
+          <p>Senior Software Engineer</p>
+        </div>
+        <div class="mentor">
+            <img src="Ellipse 3.png" alt="Mentor">
+            <p>Ananya Sharma</p>
+            <p>Senior Software Engineer</p>
+          </div>
+          <div class="mentor">
+            <img src="Ellipse 3.png" alt="Mentor">
+            <p>Ananya Sharma</p>
+            <p>Senior Software Engineer</p>
+          </div>
+          <div class="mentor">
+            <img src="Ellipse 3.png" alt="Mentor">
+            <p>Ananya Sharma</p>
+            <p>Senior Software Engineer</p>
+          </div>
+          <div class="mentor">
+            <img src="Ellipse 3.png" alt="Mentor">
+            <p>Ananya Sharma</p>
+            <p>Senior Software Engineer</p>
+          </div>
+          <div class="mentor">
+            <img src="Ellipse 3.png" alt="Mentor">
+            <p>Ananya Sharma</p>
+            <p>Senior Software Engineer</p>
+          </div>
+        
+      </div>
+    </div>
+
+    <div class="articles">
+      <h3>Top Articles and Blogs</h3>
+      
+      <div class="article-card">
+        <img src="Frame 701.png">
+        <h4>The Power of Alumni Networks</h4>
+        <p>Fostering connections and opportunities...</p>
+        <p>Alumni associations are vital links between alumni and their alma mater, offering mentorship, networking, and career support for personal and professional growth.</p>
+        <button>Open</button>
+        <button>share</button>
+      </div>
+    </div>
+
+    <div class="messages">
+      <h3>Messages</h3>
+      <a href="message.html" class="expand-btn">
+        <img src="Frame12.png" alt="Button Image" class="image-class">
+    </a>
+      <div class="message-list">
+        <div class="message" onclick="openMessagePage()">
+           
+          <p><img src="anshul gupta.png"><strong>Anshul</strong>: How are you?</p>
+          <span>5 min ago</span>
+        </div>
+        <div class="message" onclick="openMessagePage()">
+           
+          <p><img src="anshul gupta.png"><strong>Anshul</strong>: How are you?</p>
+          <span>5 min ago</span>
+        </div>
+        <div class="message" onclick="openMessagePage()">
+            
+          <p><img src="anshul gupta.png"><strong>Anshul</strong>: How are you?</p>
+          <span>5 min ago</span>
+        </div>
+        <div class="message" onclick="openMessagePage()">
+          <p><img src="anshul gupta.png"><strong>Anshul</strong>: How are you?</p>
+          <span>5 min ago</span>
+        </div>
+        <div class="message" onclick="openMessagePage()">
+            
+          <p><img src="anshul gupta.png"><strong>Anshul</strong>: How are you?</p>
+          <span>5 min ago</span>
+        </div>
+        <div class="message" onclick="openMessagePage()">
+            
+          <p><img src="anshul gupta.png"><strong>Anshul</strong>: How are you?</p>
+          <span>5 min ago</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="script.js"></script> -->
+ 
+</html>

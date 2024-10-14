@@ -1,0 +1,129 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  /* Main Container */
+  .messages-container {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: white;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .tabs button.active {
+    background-color: #ddd;
+    
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Chat List */
+  .chat-list {
+    overflow-y: auto;
+    max-height: 70%;
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .chat-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-name {
+    font-weight: bold;
+  }
+  
+  .chat-message {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  .chat-time {
+    margin-left: auto;
+    font-size: 0.8rem;
+    color: gray;
+  }
+  
+  /* Chat Area */
+  .chat-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: gray;
+    background-color: white;
+    border-right: 1px solid #ddd;
+  }
+  
+  /* Shortcuts Section */
+  .shortcuts {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .shortcuts h3 {
+    margin-bottom: 10px;
+  }
+  
+  .shortcut-list {
+    overflow-y: auto;
+    max-height: 80%;
+  }
+  
+  .shortcut-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .shortcut-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }

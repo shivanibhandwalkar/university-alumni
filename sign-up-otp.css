@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('forgot-svg.svg') no-repeat center center fixed;
+    background-size:contain;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+    background-color:  #2d3b4c;
+}
+
+.container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 380px;
+}
+
+.otp-box p {
+    margin-bottom: 25px;
+    color:#58A4B0;
+    font-size: 26px;
+}
+
+.otp-logo{
+   width: 80px;
+   height: 80px;
+
+}
+.otp-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+   
+   
+}
+
+.otp-input input {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #58A4B0;
+    border-radius: 5px;
+    margin-bottom: 13px;
+}
+
+.otp-input input:focus {
+    border-color: #58A4B0;  
+}
+
+.button {
+    background-color: #58A4B0;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10PX;
+}
+
+

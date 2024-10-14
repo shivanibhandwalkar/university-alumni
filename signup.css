@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    height: 130vh;
+    position: absolute;
+  
+}
+
+.container {
+    display:flex;
+    text-align: left;
+    height: 100vh;
+    background-color: #2d3b4c;
+    height: Fixed (483px)px;
+ 
+}
+
+.signup-form {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 490px;
+    width: 400px;
+    margin-top: 180px;
+    margin-left: 190px;
+    padding: 20px;
+    
+}
+
+/*
+.header h1 {
+    font-size: 24px;
+    display: flex;
+    color: white;
+    margin-left: 98%;
+    margin-top: 30px;
+}
+
+.header p {
+    font-size: 15px;
+    display: flex;
+    color: white;
+    margin-left: 100%;
+}*/
+
+.container p {
+    margin-bottom: 10px;
+    color: #0f0b0b;
+    font-size: 15px;
+    justify-content: center;
+   
+   
+}
+.signup-form p{
+    text-align:left;
+    color: rgb(7, 7, 7);
+}
+.tandc{
+    text-align: center;
+}
+
+form label {
+    display: block;
+    justify-content: center;
+    color: #1e1b1b;
+}
+
+form input {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 9px;
+    background-color: #58A4B0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+.or-section {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f1f1;
+    border: #58A4B0;
+    color:#58A4B0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.already-registered {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.already-registered a {
+    color: #58A4B0;
+    text-decoration: none;
+}
+
+.image {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    margin-top: 30%;
+    width: 850px;
+height: 790px;
+top: 216px;
+left: 55px;
+gap: 0px;
+opacity: 0px;
+margin-top: 180px;
+
+}
